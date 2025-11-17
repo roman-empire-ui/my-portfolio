@@ -40,10 +40,12 @@ const Nav = () => {
         links.map((link , i) => {
             return <Link key={i} href={link.path} className={`${link.path === pathName && 'text-accent border-b-2 border-accent'} capitalize hover:text-accent transition-all`}> {link.name} </Link>
         })
-       }
+       }   
       </nav>
     </div>
   )
 }
 
 export default Nav
+
+

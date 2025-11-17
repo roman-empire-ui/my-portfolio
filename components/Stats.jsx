@@ -6,12 +6,12 @@ import CountUp from "react-countup"
 
 const stats = [
     {
-        count : '6', 
-        text : 'Months of Experience'
+        count : '1', 
+        text : 'Year(s) of Experience'
     },
 
     {
-        count : '6', 
+        count : '10',
         text : 'Projects Done'
     },
 

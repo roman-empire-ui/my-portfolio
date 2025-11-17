@@ -31,7 +31,7 @@ const about = {
 
   {
     name : 'Experience',
-    value : '6 Months'
+    value : '1 year'
   },
 
   {
@@ -46,7 +46,7 @@ const about = {
 
   {
     name : 'Certification',
-    value : 'DCT Academy'
+    value : 'DCT Academy , Sri manasa supermarket'
   },
  ]
 }
@@ -60,6 +60,12 @@ const experience = {
       company : 'Edze Soft Pvt. Ltd',
       position : 'Fullstack Developer',
       duration : 'Jul 2024 - Dec 2024'
+    },
+
+    {
+      company : 'Freelancing',
+      position : 'Fullstack Developer',
+      duration : 'July 2025 - September 2025'
     }
   ]
 } 

@@ -14,8 +14,20 @@ import WorkSlider from '@/components/WorkSlider'
 
 
 const projects = [
+
   {
     no: '01',
+    category: 'Fullstack',
+    title: 'Cash counter',
+    description: 'Developed a customized supermarket management system, including cash counting, stock tracking, and daily reporting modules.',
+    stack : [{name : 'reactvite'} , {name : 'next.js'} , {name : 'javascript'} , {name : 'tailwind.css'}, {name : 'node.js'} , {name : 'express.js'} , {name : 'mongoDB'}],
+    image : '/images/pro.png',
+    live : '',
+    gitHub : 'https://github.com/roman-empire-ui',
+   
+  },
+  {
+    no: '02',
     category: 'Fullstack',
     title: 'E-commerce',
     description: 'Developed an E-commerce website using React, Next.js, Node.js, Express, MongoDB. Used tailwind css for styling. Stripe for payment processing',
@@ -26,7 +38,7 @@ const projects = [
   },
 
   {
-    no: '02',
+    no: '03',
     category: 'Fullstack',
     title: 'Kaiser Chat',
     description: `Developed a Sample chat app with real-time messaging, real-time user online/offline status, and chat
@@ -38,7 +50,7 @@ const projects = [
   },
 
   {
-    no: '03',
+    no: '04',
     category: 'Fullstack',
     title: 'Social Networking App',
     description: ` Built a platform for users to share content and join communities.  Added notifications using NodeMailer and secure authentication via middleware. Optimized MongoDB queries and integrated AWS S3 for better performance.`,
@@ -49,7 +61,7 @@ const projects = [
   },
 
   {
-    no: '04',
+    no: '05',
     category: 'Frontend',
     title: 'Gaming Platform',
     description: `Designed a frontend gaming platform using html5 and css 3`,
